@@ -1,0 +1,27 @@
+#ifndef DEFINES_H
+#define DEFINES_H
+
+#define KEY_ESCAPE 27
+
+#define DISPLAY_HEIGHT     20
+
+#define GAME_FIELD_WIDTH   20
+#define INFO_BOARD_WIDTH   14
+
+#define GAME_FIELD_ROWS    DISPLAY_HEIGHT
+#define GAME_FIELD_COLS    (GAME_FIELD_WIDTH / 2)
+
+#define DISPLAY_WIDTH      (GAME_FIELD_WIDTH + INFO_BOARD_WIDTH + 1)
+
+#define DISPLAY_LEFT       5
+#define DISPLAY_RIGHT      (DISPLAY_LEFT + DISPLAY_WIDTH - 1)
+#define DISPLAY_UP         3
+#define DISPLAY_DOWN       (DISPLAY_UP + DISPLAY_HEIGHT - 1)
+
+#define DISPLAY_CENTER_X   ((DISPLAY_LEFT + DISPLAY_RIGHT) / 2)
+#define DISPLAY_CENTER_Y   ((DISPLAY_UP + DISPLAY_DOWN) / 2)         
+
+#define VERTICAL_LINE_X    (DISPLAY_LEFT + GAME_FIELD_WIDTH)
+
+#endif  // DEFINES_H
+                  

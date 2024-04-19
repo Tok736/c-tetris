@@ -1,0 +1,3 @@
+Andrew 100000
+Bill   50000
+Carl   10000
